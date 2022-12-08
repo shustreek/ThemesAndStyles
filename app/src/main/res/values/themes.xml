@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <attr name="awesomeColor" format="color" />
+    
+    <style name="Theme.ThemesAndStyles.Main" parent="Base.SimpleTheme.ThemesAndStyles"/>
+
+    <!-- Base simple theme -->
+    <style name="Base.SimpleTheme.ThemesAndStyles" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="actionBarStyle">@style/Widget.MaterialComponents.ActionBar.Solid</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.Primary</item>
+
+<!--        <item name="buttonStyle">@style/MyButton</item>-->
+<!--        <item name="materialButtonStyle">@style/MyButton</item>-->
+<!--        <item name="android:buttonStyle">@style/MyButton</item>-->
+
+<!--        <item name="awesomeColor">@color/color_primary</item>-->
+
+    </style>
+
+    <style name="TextViewStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">?attr/awesomeColor</item>
+    </style>
+
+    <style name="MyButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minWidth">@dimen/button_min_width</item>
+        <item name="android:minHeight">@dimen/button_min_height</item>
+        <item name="strokeColor">@color/color_primary</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ThemesAndStyles" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ThemesAndStyles" parent="Base.Theme.ThemesAndStyles" />
+</resources>

@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.SimpleTheme.ThemesAndStyles" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your dark theme here. -->
+<!--        <item name="actionBarStyle">@style/Widget.MaterialComponents.ActionBar.Solid</item>-->
+<!--        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.Primary</item>-->
+
+        <item name="buttonStyle">@style/MyButton</item>
+        <item name="materialButtonStyle">@style/MyButton</item>
+        <item name="android:buttonStyle">@style/MyButton</item>
+
+        <item name="awesomeColor">@color/color_primary</item>
+<!--        <item name="colorAccent">@color/color_primary</item>-->
+<!--         <item name="colorPrimary">@color/color_primary</item>-->
+    </style>
+</resources>
